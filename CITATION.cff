@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article below."
+title: "HEA: data-driven design of mechanically hard soft-magnetic high-entropy alloys"
+authors:
+  - family-names: Dai
+    given-names: Mian
+repository-code: "https://github.com/Daimian/HEA"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Data-Driven Design of Mechanically Hard Soft Magnetic High-Entropy Alloys"
+  authors:
+    - family-names: Dai
+      given-names: Mian
+    - family-names: Zhang
+      given-names: Yixuan
+    - family-names: Li
+      given-names: Xiaoqing
+    - family-names: Schönecker
+      given-names: Stephan
+    - family-names: Han
+      given-names: Liuliu
+    - family-names: Xie
+      given-names: Ruiwen
+    - family-names: Shen
+      given-names: Chen
+    - family-names: Zhang
+      given-names: Hongbin
+  journal: "Advanced Science"
+  year: 2025
+  doi: "10.1002/advs.202500867"

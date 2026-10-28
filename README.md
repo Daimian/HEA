@@ -53,3 +53,41 @@ The MOBO workflow (arXiv:2509.05702) demonstrates:
 - with an ensemble surrogate (bootstrapping + stacking) and Monte-Carlo-based acquisition evaluation.
 
 ---
+
+## Repository layout
+
+| Path | Content |
+| --- | --- |
+| `HTP_ML/Database/` | EMTO–CPA database of quaternary HEAs (`magHEA_quat.csv`) |
+| `HTP_ML/Ensemble/` | ensemble ML surrogate models (AutoGluon) with pre- and post-processing |
+| `HTP_ML/Website/` | interactive Dash visualization of the quaternary database |
+| `magHEA_MOBO/` | multi-objective BO workflow, Pareto-front results and plotting scripts |
+
+The Bayesian optimization code under `magHEA_MOBO/` builds on [matbo](https://github.com/Daimian/matbo),
+developed in the TMM group at TU Darmstadt.
+
+## Citation
+
+```bibtex
+@article{dai2025hea,
+  title   = {Data-Driven Design of Mechanically Hard Soft Magnetic High-Entropy Alloys},
+  author  = {Dai, Mian and Zhang, Yixuan and Li, Xiaoqing and Sch{\"o}necker, Stephan and Han, Liuliu and Xie, Ruiwen and Shen, Chen and Zhang, Hongbin},
+  journal = {Advanced Science},
+  year    = {2025},
+  doi     = {10.1002/advs.202500867}
+}
+
+@misc{dai2025mobo,
+  title         = {Accelerated Design of Mechanically Hard Magnetically Soft High-entropy Alloys via Multi-objective Bayesian Optimization},
+  author        = {Dai, Mian and others},
+  year          = {2025},
+  eprint        = {2509.05702},
+  archivePrefix = {arXiv}
+}
+```
+
+## License
+
+Code is licensed under the [MIT License](LICENSE). The data (`HTP_ML/Database/`, the CSV files in
+`magHEA_MOBO/`) is licensed under [CC BY 4.0](LICENSE-DATA), the same license as the Advanced
+Science article.
