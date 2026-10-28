@@ -63,8 +63,8 @@ The MOBO workflow (arXiv:2509.05702) demonstrates:
 | `HTP_ML/Website/` | interactive Dash visualization of the quaternary database |
 | `magHEA_MOBO/` | multi-objective BO workflow, Pareto-front results and plotting scripts |
 
-The Bayesian optimization code under `magHEA_MOBO/` builds on [matbo](https://github.com/Daimian/matbo),
-developed in the TMM group at TU Darmstadt.
+The Bayesian optimization code under `magHEA_MOBO/` builds on a framework developed in the TMM
+group at TU Darmstadt.
 
 ## Citation
 
